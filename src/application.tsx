@@ -21,14 +21,6 @@ const Globals = createGlobalStyle`
   }
 `;
 
-const state = {
-  navigationLinks: [
-    {link: 'https://google.com', title: 'Google'},
-    {link: 'https://google.com', title: 'Google'},
-    {link: 'https://google.com', title: 'Google'}
-  ]
-}
-
 export const Application: React.FC<Props> = ({ root }) => (
   <Provider value={root}>
       <Globals />

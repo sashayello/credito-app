@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { HomePageTemplate } from './../../ui/templates';
 import { useEvent, useStore } from 'effector-react/ssr';
 
 import { useStart, withStart } from 'lib/page-routing';
@@ -15,7 +16,7 @@ export const HomePage = withStart(model.pageLoaded, () => {
 
   return (
     <>
-      <h1>Hello Credit page we build some table width info Store</h1>
+      <HomePageTemplate />
     </>
   );
 });
