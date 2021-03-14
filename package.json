@@ -1,6 +1,6 @@
 {
   "name": "razzle-examples-with-typescript",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -75,13 +75,22 @@
     "moduleNameMapper": {
       "^lib/(.*)$": "<rootDir>/src/lib/$1"
     },
-    "transformIgnorePatterns": ["node_modules"],
+    "transformIgnorePatterns": [
+      "node_modules"
+    ],
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.(ts|js)?(x)",
       "<rootDir>/src/**/?(*.)(spec|test).(ts|js)?(x)"
     ],
-    "moduleFileExtensions": ["ts", "tsx", "js", "json"],
-    "collectCoverageFrom": ["src/**/*.{js,jsx,ts,tsx}"]
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}"
+    ]
   },
   "config": {
     "commitizen": {
