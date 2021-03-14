@@ -18,6 +18,7 @@ const Globals = createGlobalStyle`
     padding: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
+    background-color: #f2f6fa;
   }
 `;
 
