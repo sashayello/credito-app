@@ -1,0 +1,1 @@
+export { TableFeature } from './pages/table';

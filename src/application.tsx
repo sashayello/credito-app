@@ -18,16 +18,9 @@ const Globals = createGlobalStyle`
     padding: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
+    background-color: #f2f6fa;
   }
 `;
-
-const state = {
-  navigationLinks: [
-    {link: 'https://google.com', title: 'Google'},
-    {link: 'https://google.com', title: 'Google'},
-    {link: 'https://google.com', title: 'Google'}
-  ]
-}
 
 export const Application: React.FC<Props> = ({ root }) => (
   <Provider value={root}>
